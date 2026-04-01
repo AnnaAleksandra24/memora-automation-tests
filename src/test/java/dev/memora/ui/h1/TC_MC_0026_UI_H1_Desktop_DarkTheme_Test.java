@@ -10,14 +10,14 @@ import dev.memora.cssStyleAssertions.CssStyleAssertions;
 
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
-public class TC_MC_0025_UI_H1_Desktop_LightTheme_Test {
+public class TC_MC_0026_UI_H1_Desktop_DarkTheme_Test {
     String dataTestId = "test_h1";
-    String theme = "light";
+    String theme = "dark";
 
     String hostURL = "https://leva13007.github.io/memora-cards-storybook/";
     String iframe = "iframe.html?globals=";
     String element = "&id=ui-atoms-h1--default&viewMode=story";
-    String themeAttr = "&globals=theme:" + theme;
+    String themeAttr = "&globals=theme:dark";
     String args = "&args=data-testid:" + dataTestId;
     int width = 1280;
     int height = 480;
