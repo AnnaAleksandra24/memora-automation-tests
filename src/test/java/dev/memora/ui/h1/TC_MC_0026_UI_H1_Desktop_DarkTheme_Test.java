@@ -21,7 +21,7 @@ public class TC_MC_0026_UI_H1_Desktop_DarkTheme_Test {
     String args = "&args=data-testid:" + dataTestId;
     int width = 1280;
     int height = 480;
-    String textColor = "#0f172a";
+    String textColor = "#f5f7fb";
 
     String fontFamily = "Inter";
     String fontSize = "32px";
@@ -41,7 +41,7 @@ public class TC_MC_0026_UI_H1_Desktop_DarkTheme_Test {
             page.setViewportSize(width, height);
 
             // Step #1
-            page.navigate(hostURL + iframe + element + args);
+            page.navigate(hostURL + iframe + element + themeAttr + args);
             System.out.println(hostURL + iframe + element + themeAttr + args);
 
             // Step #2

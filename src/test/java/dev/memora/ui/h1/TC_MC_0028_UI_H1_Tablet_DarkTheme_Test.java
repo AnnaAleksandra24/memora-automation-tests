@@ -21,7 +21,7 @@ public class TC_MC_0028_UI_H1_Tablet_DarkTheme_Test {
     String args = "&args=data-testid:" + dataTestId;
     int width = 1024;
     int height = 480;
-    String textColor = "#0f172a";
+    String textColor = "#f5f7fb";
 
     String fontFamily = "Inter";
     String fontSize = "28px";
@@ -41,7 +41,7 @@ public class TC_MC_0028_UI_H1_Tablet_DarkTheme_Test {
             page.setViewportSize(width, height);
 
             // Step #1
-            page.navigate(hostURL + iframe + element + args);
+            page.navigate(hostURL + iframe + element + themeAttr + args);
             System.out.println(hostURL + iframe + element + themeAttr + args);
 
             // Step #2

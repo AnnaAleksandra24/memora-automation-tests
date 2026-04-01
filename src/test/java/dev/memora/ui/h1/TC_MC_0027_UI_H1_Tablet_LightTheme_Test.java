@@ -41,7 +41,7 @@ public class TC_MC_0027_UI_H1_Tablet_LightTheme_Test {
             page.setViewportSize(width, height);
 
             // Step #1
-            page.navigate(hostURL + iframe + element + args);
+            page.navigate(hostURL + iframe + element + themeAttr + args);
             System.out.println(hostURL + iframe + element + themeAttr + args);
 
             // Step #2
